@@ -1,4 +1,6 @@
-export function App(){
-   throw new Error('deu ruim!')
+
+import './styles/global.css'
+
+export function App() {
     return <h1>Hello Word test</h1>
 }
