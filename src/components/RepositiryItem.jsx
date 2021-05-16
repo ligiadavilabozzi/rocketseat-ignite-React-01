@@ -1,13 +1,13 @@
-export function RepositoryItem (){
+export function RepositoryItem(props) {
     return (
-        <li> {/* li para cada repositório com */}
-        <strong>unform</strong> {/* nome do repositório que puxaremos da api do git hub */}
-        <p>Forms in React</p> {/* descrição do repositório */}
+        <li>
+            <strong>{props.repository}</strong>
+            <p>Forms in React</p>
 
-        <a href="">
-            Acessar Respositório
+            <a href="">
+                Acessar Respositório
         </a>
-    </li>
+        </li>
 
     )
 
