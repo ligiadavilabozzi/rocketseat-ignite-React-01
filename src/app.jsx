@@ -1,7 +1,13 @@
 
+import { Counter } from './components/Counter'
 import { RepositoryList } from './components/RepositoryList'
 import './styles/global.css'
 
 export function App() {
-    return <RepositoryList />
+    return (
+        <>
+            <RepositoryList />
+            <Counter />
+        </>
+    )
 }
